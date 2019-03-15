@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface CJTest : NSObject
-
++(void)testLog;
 @end
 
-NS_ASSUME_NONNULL_END
+

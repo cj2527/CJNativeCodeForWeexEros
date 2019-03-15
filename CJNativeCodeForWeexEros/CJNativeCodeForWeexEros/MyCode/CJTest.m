@@ -9,5 +9,7 @@
 #import "CJTest.h"
 
 @implementation CJTest
-
++(void)testLog{
+    NSLog(@"Log=11111");
+}
 @end

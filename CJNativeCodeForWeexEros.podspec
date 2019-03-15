@@ -17,8 +17,8 @@
    s.requires_arc = true                   #是否使用ARC，如果指定具体文件，则具体的问题使用ARC
 
    s.source = { :git => 'https://github.com/cj2527/CJNativeCodeForWeexEros.git', :tag => s.version.to_s }
-s.resources = 'Source/**/*.xib'
-s.source_files = "Source/*.{h,m,mm}","Source/Gesture Page/*.{h,m,mm}"
+s.resources = 'MyCode/**/*.xib'
+s.source_files = "MyCode/*.{h,m,mm}"
    s.frameworks = 'UIKit'                  #所需的framework，多个用逗号隔开
    s.dependency 'AFNetworking', '~> 2.3'   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
 

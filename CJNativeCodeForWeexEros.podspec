@@ -1,7 +1,7 @@
  Pod::Spec.new do |s|
 
    s.name             = "CJNativeCodeForWeexEros"    #插件名称
-   s.version          = "1.0.0"             #版本号
+   s.version          = "1.0.4"             #版本号
    s.summary          = "Just Testing."     #简短介绍，下面是详细介绍
    s.description      = <<-DESC
                         Testing Private Podspec.
@@ -17,9 +17,9 @@
    s.requires_arc = true                   #是否使用ARC，如果指定具体文件，则具体的问题使用ARC
 
    s.source = { :git => 'https://github.com/cj2527/CJNativeCodeForWeexEros.git', :tag => s.version.to_s }
-s.resources = 'MyCode/**/*.xib'
-s.source_files = "MyCode/*.{h,m,mm}"
+s.resources = 'CJNativeCodeForWeexEros/CJNativeCodeForWeexEros/MyCode/**/*'
+s.source_files = "CJNativeCodeForWeexEros/CJNativeCodeForWeexEros/MyCode/*.{h,m,mm}"
    s.frameworks = 'UIKit'                  #所需的framework，多个用逗号隔开
-   s.dependency 'AFNetworking', '~> 2.3'   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+ 
 
  end
